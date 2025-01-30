@@ -1,0 +1,52 @@
+.starwars-blog {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 2rem;
+    margin: 3rem;
+    padding: 2rem;
+}
+
+.character-cards,
+.vehicle-cards,
+.planet-cards {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    gap: 2rem; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+p {
+    color: white !important;  
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    gap: 1rem;
+    width: 100%;  
+    margin: 0 auto; 
+}
+
+.page-button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.page-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.page-button.active {
+    background-color: rgba(255, 255, 255, 0.5);  
+}

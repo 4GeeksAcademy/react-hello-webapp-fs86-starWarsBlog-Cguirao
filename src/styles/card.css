@@ -1,0 +1,40 @@
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .btn-favorite {
+    font-size: 1rem; 
+    padding: 8px 15px; 
+    border-radius: 5px;
+    border: 1px solid transparent; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+  
+ 
+  .learn-more{
+    padding: 8px 15px; 
+    border: solid 1px black;
+  }
+  
+  .btn-favorite {
+    background-color: #ff4f4f; 
+    color: white; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-favorite i {
+    margin-right: 5px; 
+  }
+  
+  .btn-favorite:hover {
+    background-color: #e03e3e; 
+    border-color: #c0392b; 
+  }
+  

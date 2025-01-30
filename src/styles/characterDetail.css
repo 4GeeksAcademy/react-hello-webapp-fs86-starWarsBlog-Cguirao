@@ -1,0 +1,24 @@
+.character-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3rem;
+    margin:3rem;
+    background-color: aquamarine;
+
+}
+.character-detail__principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details{
+    margin-right: 1rem;
+}
+.detail-others{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3rem;
+    margin-top: 3rem;
+}
